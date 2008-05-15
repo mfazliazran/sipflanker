@@ -39,4 +39,4 @@ be missed. This is an issue I’m still investigating.
 The scan results will be desplayed on the screen, and also written to the file 
 flank.txt, present in the same folder where sipflanker.py resides.
 
-If  you have any questions or comments, you can contact me at sergio[at]infosegura.net.
+If  you have any questions or comments, you can contact me at sergio(-at-)infosegura.net.
