@@ -1,0 +1,3 @@
+Version 1.1 beta
+
+-Fixed a bug that gave irregular results when scanning local IPs. 
