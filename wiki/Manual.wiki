@@ -23,20 +23,12 @@ so you may check it and make sure it is not vulnerable to attack.
 Sipflanker runs on Python, so you need to have it installed. You can download it at
 http://www.python.org/download/
 
-Sipflanker also uses Nmap as the port scanning engine, so it must be installed too.
-Nmap.exe must be installed in C:, since the application searches for c:/Nmap.exe. 
-Alternatively, you can place a shortcut to Nmap.exe in C:
-You can download Nmap at http://nmap.org/download.html
-
 To use Sipflanker, simply enter the Windows DOS shell, navigate to the folder where
-you placed sipflanker.py, and type “sipflanker.py”. Enter the IP range, and wait for
-the results. You can enter individual IPs, IPs separated by commas, or use the format 
-xxx.xxx.xxx.0-100
-Using “-“ to indicate ranges.
-I recommend you scan in blocks of 100 IPs; using larger blocks may cause some IPs to 
-be missed. This is an issue I’m still investigating.
+you placed sipflanker.py, and type “sipflanker.py”. Enter the IP, or use the format 
+xxx.xxx.xxx.0-100 Using “-“ to indicate ranges. Presently only C networks can be searched.
+
 
 The scan results will be desplayed on the screen, and also written to the file 
 flank.txt, present in the same folder where sipflanker.py resides.
 
-If  you have any questions or comments, you can contact me at sergio(-at-)infosegura.net.
+If  you have any questions or comments, you can contact me at sergio[at]infosegura.net.
